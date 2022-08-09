@@ -3,7 +3,7 @@
     {
       "name": "Tests Pass",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner && dotnet test",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test",
       "input": "",
       "output": "",
       "comparison": "included",
