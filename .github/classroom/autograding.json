@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Tests Pass",
-      "setup": "",
+      "setup": "apt-get install -y dotnet-sdk-6.0",
       "run": "dotnet test",
       "input": "",
       "output": "",
