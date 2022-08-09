@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Tests Pass",
+      "setup": "",
+      "run": "dotnet test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
