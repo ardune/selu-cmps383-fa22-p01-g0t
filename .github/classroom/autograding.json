@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Tests Pass",
-      "setup": "sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0 && DOTNET_CLI_HOME=HOME",
-      "run": "dotnet test",
+      "setup": "sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
+      "run": "DOTNET_CLI_HOME=HOME && dotnet test",
       "input": "",
       "output": "",
       "comparison": "included",
